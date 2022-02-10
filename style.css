@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: #2F3E46;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container section{
+    display: flex;
+    justify-content: center;
+    background-color: #354F52;    
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.25), 
+                inset -10px -10px 8px rgba(0, 0, 0, 0.25), 
+                inset 10px 10px 10px rgba(255, 255, 255, 0.24);
+}
+
+.container section form{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container section form .username,
+.container section form .password{
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #CAD2C5;
+}
+.container section form label{
+    font-size: 24px;
+}
+
+.container section form input[type=text],
+.container section form input[type=password]{
+    height: 30px;
+    width: 90%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.container section form input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    
+}
+
+.container section form .save{
+    position: relative;
+    top: 20px;
+    left: -35px;
+    color: #CAD2C5;
+}
+
+
+.container section form input[type="submit"]{
+    position: relative;
+    top: 50px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #2F3E46;
+    color: #CAD2C5;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25), 
+                inset -5px -5px 8px rgba(0, 0, 0, 0.25), 
+                inset 5px 5px 8px rgba(255, 255, 255, 0.25);
+}
+.container section form input[type="submit"]:hover{
+    box-shadow: inset -5px -5px 8px rgba(255, 255, 255, 0.25), 
+                inset 5px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+.container section form .signup{
+    position: relative;
+    top: 60px;
+}
+
+.container section form .signup a{
+    text-decoration: none;
+    color: #84A98C;
+}
